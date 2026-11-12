@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="1100" height="650" viewBox="0 0 1100 650">
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10"
+      refX="9" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#263746"/>
+      </marker>
+    </defs>
+
+    <rect width="100%" height="100%" fill="white"/>
+    <text x="550" y="48" text-anchor="middle"
+    font-size="27" font-weight="bold" fill="#172B4D">ATM PIN VERIFICATION - DFA</text>
+
+    <text x="550" y="82" text-anchor="middle"
+    font-size="16" fill="#444">Exactly four numeric digits are accepted</text>
+    
+        <line x1="140" y1="300" x2="260" y2="300"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="200.0" y="288.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Digit</text>
+        
+        <line x1="340" y1="300" x2="460" y2="300"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="400.0" y="288.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Digit</text>
+        
+        <line x1="540" y1="300" x2="660" y2="300"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="600.0" y="288.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Digit</text>
+        
+        <line x1="740" y1="300" x2="910" y2="300"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="825.0" y="288.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Digit</text>
+        
+        <line x1="300" y1="340" x2="500" y2="480"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="400.0" y="398.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Invalid input</text>
+        
+        <line x1="500" y1="340" x2="550" y2="480"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="525.0" y="398.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Invalid input</text>
+        
+        <line x1="700" y1="340" x2="550" y2="480"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="625.0" y="398.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Invalid input</text>
+        
+        <line x1="950" y1="340" x2="550" y2="480"
+        stroke="#263746" stroke-width="2.5"
+        marker-end="url(#arrow)"/>
+
+        <text x="750.0" y="398.0"
+        text-anchor="middle" font-size="16"
+        fill="#C0392B">Extra digit</text>
+        
+        <circle cx="100" cy="300" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+        <text x="100" y="306" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Q0</text>
+        
+        <circle cx="300" cy="300" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+        <text x="300" y="306" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Q1</text>
+        
+        <circle cx="500" cy="300" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+        <text x="500" y="306" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Q2</text>
+        
+        <circle cx="700" cy="300" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+        <text x="700" y="306" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Q3</text>
+        
+        <circle cx="950" cy="300" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+            <circle cx="950" cy="300" r="33"
+            fill="none" stroke="#1F618D" stroke-width="2"/>
+            
+        <text x="950" y="306" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Q4</text>
+        
+        <circle cx="550" cy="520" r="39"
+        fill="#EAF2F8" stroke="#1F618D" stroke-width="3"/>
+        
+        <text x="550" y="526" text-anchor="middle"
+        font-size="18" font-weight="bold"
+        fill="#172B4D">Qdead</text>
+        
+    <text x="550" y="610" text-anchor="middle"
+    font-size="17" fill="#172B4D">
+    Initial State: Q0 | Double Circle: Final State
+    </text>
+    </svg>
+    
